@@ -155,7 +155,7 @@ def clean_code(df1):
 # import dataset
 #--------------------------------------------
 
-caminho_arquivo = '/dataset/train.csv'
+caminho_arquivo = 'https://github.com/Ivan-Bertaci/curry_company/blob/master/dataset/train.csv'
 df = pd.read_csv(caminho_arquivo)
 
 #--------------------------------------------
