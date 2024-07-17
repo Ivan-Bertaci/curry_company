@@ -13,7 +13,7 @@ from datetime import datetime
 st.set_page_config(page_title='Visão Restaurantes', page_icon='🏙️', layout='wide')
 
 # import dataset
-caminho_arquivo = '../dataset/train.csv'
+caminho_arquivo = '/dataset/train.csv'
 df = pd.read_csv(caminho_arquivo)
 #print(df.head())
 
